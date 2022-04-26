@@ -3,13 +3,26 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {background-color: grey; margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; }
+body {background-color: grey; }
 
 h1   {color: black; font-size: 1.5em; text-align: center; font-family: Helvetica, sans-serif}
 
 h2   {color: white; font-size: 5em; text-align: center; font-family: Helvetica, sans-serif}
 p    {color: white; font-size: 1.25em; text-align: center; font-family: Helvetica, sans-serif; margin-top: 0px;}
 
+.icon {
+float:left;
+height:100px;
+width:100px; 
+}
+.container {
+    display: flex;
+  	margin-left: auto;
+  	margin-right: auto;
+    justify-content: center;
+    height:auto;
+    padding:1%;
+}
 img {
   display: block;
   margin-left: auto;
@@ -35,19 +48,24 @@ img {
 </head>
 
 <body>
-<a href="https://gaming.knigthed.com/"><img src="https://drive.google.com/uc?id=1avCQmzFiX4b2g4MIGyPY4oM4oHDiZ2UZ" width="150" height="150" class:="left"></a>
-<p style="color:white; font-size:5em; margin-top: 5px;">How was your day?</p>
+<div class='container'>
+	<div>
+		<a href="https://gaming.knigthed.com/"><img src="https://drive.google.com/uc?id=1avCQmzFiX4b2g4MIGyPY4oM4oHDiZ2UZ" class='icon'></a>
+	</div>
+		<div style="color:white; font-size:5em; font-family: Helvetica, sans-serif;">How was your day?
+    </div>
+</div>
 
-<div class="row">
+<div class='row'>
 	<div class="column">
-	<a href="https://delighted.com/t/rNfxfRmT/5"><img src="https://drive.google.com/uc?		id=10Swi1OYN19QzlaxlLm91ySV0e-3_TV64" width="250" height="250" ontouchstart="this.src='https://drive.google.com/uc?id=1NXbEBckIBMFPO8IUyTXMO7EsODzOmtme'" ontouchend="this.src='https://drive.google.com/uc?id=10Swi1OYN19QzlaxlLm91ySV0e-3_TV64'"></a>
+	<a href="https://delighted.com/t/rNfxfRmT/5"><img src="https://drive.google.com/uc?id=10Swi1OYN19QzlaxlLm91ySV0e-3_TV64" width="250" height="250" ontouchstart="this.src='https://drive.google.com/uc?id=1NXbEBckIBMFPO8IUyTXMO7EsODzOmtme'" ontouchend="this.src='https://drive.google.com/uc?id=10Swi1OYN19QzlaxlLm91ySV0e-3_TV64'"></a>
 	</div>
 
-	<div class="column">
+	<div class='column'>
 	<a href="https://delighted.com/t/rNfxfRmT/3"><img src="https://drive.google.com/uc?id=18uogtdUWKr67t8EHsaNwIJorqu8q8nmJ" width="250" height="250" ontouchstart="this.src='https://drive.google.com/uc?id=1gRLGZ0WfK1vWJWVfpqPE6W3YfCg2H5nK'" ontouchend="this.src='https://drive.google.com/uc?id=18uogtdUWKr67t8EHsaNwIJorqu8q8nmJ'"></a>
 	</div>
 
-	<div class="column">
+	<div class='column'>
 	<a href="https://delighted.com/t/rNfxfRmT/1"><img src="https://drive.google.com/uc?id=1GtFv0WZcyFlff36MJ_BOfjrMDtyUzIDo" width="250" height="250" ontouchstart="this.src='https://drive.google.com/uc?id=1lk-J8YG3ip7MVQvR_GQCI1y4qbS5UL_Z'" ontouchend="this.src='https://drive.google.com/uc?id=1GtFv0WZcyFlff36MJ_BOfjrMDtyUzIDo'"></a>
     </div>
   </div>
@@ -57,4 +75,3 @@ img {
 
 </body>
 </html>
-
